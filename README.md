@@ -1,4 +1,4 @@
-# Phishing Website Detection by Machine Learning Techniques
+# Phishing Website Detection using Machine Learning
 
 ## Objective
 A phishing website is a popular social engineering technique that imitates reliable URLs and online sites. The goal of this research is to use the dataset produced to detect phishing websites to train machine learning models and deep neural networks. In order to create a dataset from which the necessary URL- and website content-based attributes may be extracted, both phishing and benign URLs of websites are collected. Each model's performance level is assessed and contrasted.
