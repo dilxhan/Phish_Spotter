@@ -8,7 +8,7 @@ The collection of phishing URLs comes from the open-source tool **PhishTank**. T
 
 The authentic URLs were extracted from the University of New Brunswick's open datasets at https://www.unb.ca/cic/datasets/url-2016.html. This dataset contains a collection of URLs that aren't malicious, spammy, phishing, or defacement. The benign url dataset is taken into consideration for this study out of all of these categories. To train the ML models, 5000 random genuine URLs are obtained from this dataset.
 
-The above mentioned datasets are uploaded to the '[DataFiles]([https://github.com/dilxhan/Phish_Spotter/tree/main/DataFiles])' folder of this repository.
+The above mentioned datasets are uploaded to the '[DataFiles](https://github.com/dilxhan/Phish_Spotter/tree/main/DataFiles)' folder of this repository.
 
 ## Feature Extraction
 The below mentioned category of features are extracted from the URL data:
@@ -20,9 +20,9 @@ The below mentioned category of features are extracted from the URL data:
 3.   HTML & Javascript based Features<br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this category 4 features are extracted.
 
-*The details pertaining to these features are mentioned in the [URL Feature Extraction.ipynb.]([https://github.com/dilxhan/Phish_Spotter/blob/main/URL%20Feature%20Extraction.ipynb])
+*The details pertaining to these features are mentioned in the [URL Feature Extraction.ipynb.](https://github.com/dilxhan/Phish_Spotter/blob/main/URL%20Feature%20Extraction.ipynb)
 
-So, all together 17 features are extracted from the 10,000 URL dataset and are stored in '[5.urldata.csv]((https://github.com/dilxhan/Phish_Spotter/blob/main/DataFiles/5.urldata.csv))' file in the DataFiles folder.<br>
+So, all together 17 features are extracted from the 10,000 URL dataset and are stored in '[5.urldata.csv](https://github.com/dilxhan/Phish_Spotter/blob/main/DataFiles/5.urldata.csv)' file in the DataFiles folder.<br>
 
 
 ## Models & Training
@@ -38,8 +38,8 @@ Due to the input URL being either legitimate (0) or phishing (1), this data set 
 * Autoencoder Neural Network
 * Support Vector Machines
 
-All these models are trained on the dataset and evaluation of the model is done with the test dataset. The elaborate details of the models & its training are mentioned in [Phishing Website Detection_Models & Training.ipynb][(https://github.com/dilxhan/Phish_Spotter/blob/main/Phishing%20Website%20Detection_Models%20%26%20Training.ipynb)]
+All these models are trained on the dataset and evaluation of the model is done with the test dataset. The elaborate details of the models & its training are mentioned in [Phishing Website Detection_Models & Training.ipynb](https://github.com/dilxhan/Phish_Spotter/blob/main/Phishing%20Website%20Detection_Models%20%26%20Training.ipynb)
 
 ## End Results
-From the obtained results of the above models, XGBoost Classifier has highest model performance of 86.4%. So the model is saved to the file '[XGBoostClassifier.pickle.dat][(https://github.com/dilxhan/Phish_Spotter/blob/main/XGBoostClassifier.pickle.dat)]'
+From the obtained results of the above models, XGBoost Classifier has highest model performance of 86.4%. So the model is saved to the file '[XGBoostClassifier.pickle.dat](https://github.com/dilxhan/Phish_Spotter/blob/main/XGBoostClassifier.pickle.dat)'
 
